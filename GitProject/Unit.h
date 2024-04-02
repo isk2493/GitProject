@@ -8,5 +8,4 @@ public:
 	virtual void doWalk() = 0;
 	virtual void doAttack() = 0;
 	virtual void doStatus() = 0;
-
 };

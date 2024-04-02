@@ -130,8 +130,12 @@
     <ClCompile Include="FireBat.cpp" />
     <ClCompile Include="FireBat.h" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Marine.cpp" />
+    <ClCompile Include="Medic.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Marine.h" />
+    <ClInclude Include="Medic.h" />
     <ClInclude Include="Unit.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
