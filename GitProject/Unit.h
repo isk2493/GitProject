@@ -2,10 +2,11 @@
 class Unit
 {
 private:
-	int hp;
+	
 public:
-	Unit();
+	int hp, attack, heal;
 	virtual void doWalk()=0;
-	virtual void doRun()=0;
-	virtual void doHpStatus()=0;
+	virtual void doAttack() = 0;
+	virtual void doStatus(int n1,int n2)=0;
+	
 };
